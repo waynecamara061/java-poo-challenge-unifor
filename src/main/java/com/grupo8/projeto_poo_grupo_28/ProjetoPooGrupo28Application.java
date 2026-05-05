@@ -34,6 +34,38 @@ public class Diciplina {
 	}
 }
 
+public abstract class Pessoa {
+	private String cpf;
+	private String nome;
+	private int idade;
+
+	// getter
+	public String getCpf() {
+		return cpf;
+	}
+
+	// setter
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+}
+
 @SpringBootApplication
 public class ProjetoPooGrupo28Application {
 
