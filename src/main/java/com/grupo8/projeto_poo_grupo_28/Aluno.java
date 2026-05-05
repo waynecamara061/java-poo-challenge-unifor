@@ -1,9 +1,18 @@
 package com.grupo8.projeto_poo_grupo_28;
 
 public class Aluno extends Pessoa {
-	// TODO; passar atributo Aluno (Adicionar atributo matrícula e o método
-	// pagarMensalidade().)
+	public String matricula;
 
-	// TODO: Especialização de Aluno: Criar as classes Bolsista e Regular, aplicando
-	// sobreposição (override) no método pagarMensalidade() em ambas.
+	public void pagarMensalidade() {
+		System.out.println("Você deve pagar mensalidade" + this.getNome());
+	}
+
+	// Getters e Setters
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
 }
