@@ -245,4 +245,4 @@ Para revisar, você deve ter:
 - ✅ Visto a mensagem de que o servidor subiu na porta 8080.
 - ✅ Acessado a URL `http://localhost:8080` no seu navegador e visto a aplicação funcionando.
 
-Esperamos que este README tenha sido útil para você começar a explorar o projeto. Boas codificações!
+Esperamos que este README tenha sido útil para você começar a explorar o projeto. Boas codificações.
