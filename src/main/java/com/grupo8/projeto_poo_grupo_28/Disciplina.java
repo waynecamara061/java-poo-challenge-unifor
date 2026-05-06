@@ -1,6 +1,6 @@
 package com.grupo8.projeto_poo_grupo_28;
 
-public class Diciplina {
+public class Disciplina {
 	private String codigo;
 	private String nome;
 	private String semestre;
