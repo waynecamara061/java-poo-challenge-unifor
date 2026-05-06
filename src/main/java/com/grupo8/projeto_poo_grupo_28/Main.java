@@ -54,6 +54,26 @@ public class Main {
         Turma t3 = new Turma();
         t3.setCodigo("T03");
 
-        System.out.println("Objetos instanciados com sucesso!");
+        System.out.println("Objetos instanciados com sucesso! 5.1");
+
+        // Configurando a Turma 1
+        t1.setDisciplina(d1);
+        t1.setProfessor(p1);
+        t1.adicionarAluno(a1);
+        t1.adicionarAluno(a3);
+
+        // Configurando a Turma 2
+        t2.setDisciplina(d2);
+        t2.setProfessor(p1);
+        t2.adicionarAluno(a2);
+
+        // Configurando a Turma 3
+        t3.setDisciplina(d3);
+        t3.setProfessor(p1);
+        t3.adicionarAluno(a1);
+        t3.adicionarAluno(a2);
+        t3.adicionarAluno(a3);
+
+        System.out.println("Associações realizadas com sucesso!");
     }
 }
